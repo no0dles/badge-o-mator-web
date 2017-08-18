@@ -1,6 +1,9 @@
 # badge-o-mator-web
 
-[![batchomator](https://batchomator.kube.bertschi.io/api/badge/sm/16/fuck%20it/ship%20it)](http://batchomator.kube.bertschi.io/)
+[![Build Status](https://drone.kube.bertschi.io/api/badges/no0dles/badge-o-mator-web/status.svg)](https://drone.kube.bertschi.io/no0dles/badge-o-mator-web)
+[![badgeomator](https://badgeomator.kube.bertschi.io/api/badge/sm/17/Made with/vue)](https://badgeomator.kube.bertschi.io/)
+[![badgeomator](https://badgeomator.kube.bertschi.io/api/badge/sm/12/USES/JS)](https://badgeomator.kube.bertschi.io/)
+[![badgeomator](https://badgeomator.kube.bertschi.io/api/badge/sm/12/winter/is coming)](https://badgeomator.kube.bertschi.io/)
 
 ## Build Setup
 

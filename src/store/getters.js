@@ -5,5 +5,11 @@ export default {
   text2: state => state.text2,
   color: state => state.color,
   colors: state => state.colors,
-  badgeUrls: state => state.sizes.map(size => `https://batchomator.kube.bertschi.io/api/badge/${size.value}/${state.color}/${state.text1}/${state.text2}`),
+  urls: state => state.sizes.map((size) => {
+    const url = `https://badgeomator.kube.bertschi.io/api/badge/${size.value}/${state.color}/${state.text1}/${state.text2}`;
+    return {
+      image: url,
+      markdown: `[![badgeomator](${url})](https://badgeomator.kube.bertschi.io/)`,
+    };
+  }),
 };

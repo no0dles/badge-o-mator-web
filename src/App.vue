@@ -8,6 +8,12 @@
 
     <page></page>
     <vue-up></vue-up>
+
+    <div class="footer">
+      <div class="container">
+        <a target="_blank" href="https://github.com/no0dles/badge-o-mator-web">Github</a>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -40,6 +46,18 @@
     background: rgb(32, 160, 255);
     color: #fff;
     box-shadow: inset rgba(10, 10, 10, 0.1) 0px 2px 3px 0px;
+  }
+
+  .footer {
+    background: #333;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #fff;
+  }
+
+  .footer a {
+    color: #fff;
+    text-decoration: none;
   }
 
   .container {

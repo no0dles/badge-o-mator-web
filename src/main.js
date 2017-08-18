@@ -1,13 +1,14 @@
 import Vue from 'vue';
 import VueUp from 'vueup';
+import VueClipboard from 'vue-clipboard2';
 
 import App from './App';
 import store from './store';
 
-// import '../node_modules/milligram/dist/milligram.css';
 import './assets/css/font-awesome.css';
 
 Vue.use(VueUp);
+Vue.use(VueClipboard);
 
 Vue.config.productionTip = false;
 

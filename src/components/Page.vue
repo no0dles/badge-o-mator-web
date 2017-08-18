@@ -1,7 +1,6 @@
 <template>
   <div class="page">
     <div class="container">
-      <!--<size-picker></size-picker>-->
       <color-picker></color-picker>
       <text-input></text-input>
       <badge-viewer></badge-viewer>
@@ -10,7 +9,6 @@
 </template>
 
 <script>
-  import SizePicker from './SizePicker';
   import BadgeViewer from './BadgeViewer';
   import TextInput from './TextInput';
   import ColorPicker from './ColorPicker';
@@ -20,8 +18,13 @@
       ColorPicker,
       TextInput,
       BadgeViewer,
-      SizePicker,
     },
     name: 'page',
   };
 </script>
+
+<style scoped>
+  .page {
+    padding-bottom: 40px;
+  }
+</style>
