@@ -56,5 +56,6 @@
     flex-grow: 1;
     text-transform: uppercase;
     font-family: Monaco, monospace;
+    max-width: calc(100% - 24px);
   }
 </style>
