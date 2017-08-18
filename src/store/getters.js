@@ -6,7 +6,7 @@ export default {
   color: state => state.color,
   colors: state => state.colors,
   urls: state => state.sizes.map((size) => {
-    const url = `https://badgeomator.kube.bertschi.io/api/badge/${size.value}/${state.color}/${state.text1}/${state.text2}`;
+    const url = `https://badgeomator.kube.bertschi.io/api/badge/${size.value}/${state.color}/${encodeURIComponent(state.text1)}/${encodeURIComponent(state.text2)}`;
     return {
       image: url,
       markdown: `[![badgeomator](${url})](https://badgeomator.kube.bertschi.io/)`,
