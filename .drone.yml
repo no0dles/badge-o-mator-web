@@ -11,7 +11,7 @@ pipeline:
     image: no0dles/drone-plugin-gcr
     privileged: true
     registry: eu.gcr.io
-    repo: kubernetes-169708/batch-o-mator-web
+    repo: kubernetes-169708/badge-o-mator-web
     cache_from: latest
     tags:
       - latest
