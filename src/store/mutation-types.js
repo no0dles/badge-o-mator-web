@@ -1,0 +1,6 @@
+export default {
+  SET_SIZE: 'SET_SIZE',
+  SET_COLOR: 'SET_COLOR',
+  SET_TEXT1: 'SET_TEXT1',
+  SET_TEXT2: 'SET_TEXT2',
+};

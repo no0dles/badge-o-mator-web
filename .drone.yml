@@ -1,0 +1,21 @@
+pipeline:
+
+  build:
+    image: node:8.1.3
+    group: build
+    commands:
+      - yarn install
+      - yarn run build
+
+  publish:
+    image: no0dles/drone-plugin-gcr
+    privileged: true
+    registry: eu.gcr.io
+    repo: kubernetes-169708/batch-o-mator-web
+    cache_from: latest
+    tags:
+      - latest
+      - ${DRONE_TAG}
+    secrets: [ GOOGLE_TOKEN ]
+    when:
+      event: tag
