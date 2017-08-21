@@ -7,7 +7,7 @@
            v-clipboard:copy="url.markdown"
            v-clipboard:success="onCopy"
            v-clipboard:error="onError">
-        <img alt="Badge" :src="url.image">
+        <img :src="url.image">
       </div>
     </div>
   </div>
